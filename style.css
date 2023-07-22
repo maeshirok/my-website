@@ -8,6 +8,8 @@ body {
   background-color: #f8f8f8;
   letter-spacing : 0.2em;
 }
+
+/*   header関連   */
 header {
   padding: 30px 4% 15px;
   position: fixed;
@@ -18,46 +20,59 @@ header {
   align-items: center;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
 }
+h1 {
+  margin: 0 0 0 0; 
+  padding: 0;
+  font-size: 25px;
+}
 .header-nav {
   margin: 0 0 0 auto;
 }
 .header-ul {
   list-style: none;
-  margin: 0;
   display: flex;
+  list-style-type: none;
+  padding-left: 0px;
 }
 .header-li {
   margin: 0 0 0 20px;
   font-size: 14px;
 }
 
-
-h1 {
-  margin: 0 0 0 0; 
-  padding: 0;
-  font-size: 25px;
-}
+/*   main関連   */
 a {	
   text-decoration: none;
   color: #4b4b4b;
 }
-.main-visual {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: url('main_visual.jpg') top center / cover no-repeat;
+.main-div {
+  padding: 80px 10% 80%;
+  justify-content: start;
+  height: 170vh;
 }
-h2 {
-  margin: auto auto auto 10%;
+.main-ul{
+  display: flex;
+  align-items: center;
+  list-style: none;
+  list-style-type: none;
+  padding-left: 0px;
+}
+img{
+  padding: 0 2% 0;
+  max-width: 100%;
+  height: auto;
+  list-style-type: none;
+  padding-left: 0px;
+}
+.main-h2 {
+  margin: 10% 0 10% 0;
   font-size: 30px;
   font-weight: normal;
-  color: #4b4b4b;
+  color: #000000;
 }
 
-
+/*   footer関連   */
 footer {
-  padding: 50px 4% 50px;
+  padding: 75px 10%;
   background-color: #fff;
   display: flex;
   flex-wrap: nowrap;
@@ -68,8 +83,9 @@ footer {
 }
 .footer-ul {
   list-style: none;
-  margin: 0 0 0 0;
   display: flex;
+  list-style-type: none;
+  padding-left: 0px;
 }
 .footer-li {
   margin: 0 0 0 15px;
