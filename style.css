@@ -51,31 +51,9 @@ a {
 }
 
 .main-div {
-  padding: 80px 10% 80%;
+  padding: 10px 50px 30px;
   justify-content: start;
-  height: 220vh;
-}
-
-.main-ul {
-  display: flex;
-  align-items: center;
-  list-style: none;
-  list-style-type: none;
-  padding-left: 0px;
-}
-
-img {
-  padding: 0 4% 0;
-  max-width: 100%;
-  height: auto;
-  list-style-type: none;
-  pointer-events: none;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -moz-touch-callout: none;
-  -moz-user-select: none;
-  user-select: none;
-  padding-left: 0px;
+  height: 100vh;
 }
 
 .main-h2 {
@@ -87,7 +65,7 @@ img {
 
 /*   footer関連   */
 footer {
-  padding: 75px 10%;
+  padding: 45px 10%;
   background-color: #fff;
   display: flex;
   flex-wrap: nowrap;
