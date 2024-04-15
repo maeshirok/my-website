@@ -1,2 +1,2 @@
 # my-website
-https://www.maeshirok.com/
+https://maeshirok.github.io/my-website/
